@@ -1,0 +1,80 @@
+{
+  "audit_metadata": {
+    "protocol_version": "1.0.0-skeptical-audit",
+    "timestamp_utc": "2026-11-10T05:55:58Z",
+    "auditor_role": "Skeptical Computational Protein Engineering Auditor",
+    "target": "Ideonella sakaiensis PETase (UniProt A0A0K8P6T7, 290 aa mature)",
+    "candidate_under_audit": "PROD-PETase-G001-C04 (N30P/G48C/T51P/Y63C/S103C/T113P/Q126C/N288P)",
+    "thresholds_sha256": "fa8960b2d115b7dab2d20d012fb58ea2699efef3e50908c35d17a6e5b4157053"
+  },
+  "phase_0_sanity_checks": {
+    "wt_sequence_length": 290,
+    "catalytic_triad_residues": {
+      "Ser": 160,
+      "Asp": 206,
+      "His": 237
+    },
+    "native_disulfides": [
+      [
+        203,
+        239
+      ],
+      [
+        273,
+        289
+      ]
+    ],
+    "pdb_to_uniprot_offset_5xg0": 29,
+    "control_rank_order_requirement": "positive_controls_more_stable_than_negative_controls"
+  },
+  "phase_1_structural_feasibility": {
+    "proline_phi_allowed_min_deg": -85.0,
+    "proline_phi_allowed_max_deg": -45.0,
+    "proline_psi_i_minus_1_allowed_min_deg": 90.0,
+    "proline_psi_i_minus_1_allowed_max_deg": 180.0,
+    "proline_in_secondary_structure_rule": "reject_if_in_core_helix_or_strand",
+    "proline_lost_backbone_hbond_tolerance": 0,
+    "cysteine_cb_cb_distance_min_angstrom": 3.4,
+    "cysteine_cb_cb_distance_max_angstrom": 4.5,
+    "cysteine_ca_ca_distance_min_angstrom": 4.5,
+    "cysteine_ca_ca_distance_max_angstrom": 6.5,
+    "cysteine_sg_sg_distance_tolerance_angstrom": 0.15,
+    "disulfide_strain_energy_max_kcal_mol": 3.5,
+    "steric_clash_distance_threshold_angstrom": 2.0,
+    "max_allowed_severe_clashes": 0
+  },
+  "phase_2_thermodynamics": {
+    "consensus_methods_required": 3,
+    "reported_energy_units": "kcal/mol",
+    "strictly_forbidden": "converting_predicted_ddg_to_melting_temperature_without_experimental_calibration_curve",
+    "epistasis_tolerance_for_additivity_kcal_mol": 1.0,
+    "ddg_error_propagation_typical_rmse_kcal_mol": 1.2
+  },
+  "phase_3_md_simulation": {
+    "min_replicas": 3,
+    "min_duration_ns": 100,
+    "temperatures_k": [
+      300,
+      350,
+      373
+    ],
+    "rmsd_must_be_nonzero": true,
+    "statistical_test_required": "bootstrap_or_paired_t_test"
+  },
+  "phase_4_active_site": {
+    "min_distance_to_catalytic_triad_angstrom": 5.0,
+    "triad_hbond_ser_his_max_angstrom": 3.2,
+    "triad_hbond_his_asp_max_angstrom": 3.0,
+    "substrate_cleft_occlusion_tolerance": 0
+  },
+  "phase_5_developability": {
+    "max_unpaired_cysteines": 0,
+    "total_cysteines_expected": 8,
+    "disulfide_mispairing_evaluation_required": true
+  },
+  "phase_6_prior_art": {
+    "claim_novelty_forbidden": true,
+    "claim_zero_percent_patent_overlap_forbidden": true,
+    "required_statement": "no identical sequence found in the databases searched on <date>"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "model_name": "facebook/esm2_t6_8M_UR50D",
+  "evaluation_timestamp": "2026-11-10T06:12:00Z",
+  "candidate_llr_sum": -15.571283340454102,
+  "results": [
+    {
+      "mutation": "N30P",
+      "position": 30,
+      "wt_amino_acid": "N",
+      "mut_amino_acid": "P",
+      "category": "Candidate Mutation",
+      "llr_score": 0.5512919425964355,
+      "p_wt": 0.04315913841128349,
+      "p_mut": 0.07490241527557373,
+      "verdict": "FAVORABLE"
+    },
+    {
+      "mutation": "G48C",
+      "position": 48,
+      "wt_amino_acid": "G",
+      "mut_amino_acid": "C",
+      "category": "Candidate Mutation",
+      "llr_score": -3.871534824371338,
+      "p_wt": 0.1220826655626297,
+      "p_mut": 0.0025425399653613567,
+      "verdict": "DELETERIOUS"
+    },
+    {
+      "mutation": "T51P",
+      "position": 51,
+      "wt_amino_acid": "T",
+      "mut_amino_acid": "P",
+      "category": "Candidate Mutation",
+      "llr_score": -0.9629993438720703,
+      "p_wt": 0.1655283421278,
+      "p_mut": 0.06318981200456619,
+      "verdict": "BENIGN"
+    },
+    {
+      "mutation": "Y63C",
+      "position": 63,
+      "wt_amino_acid": "Y",
+      "mut_amino_acid": "C",
+      "category": "Candidate Mutation",
+      "llr_score": -2.267153024673462,
+      "p_wt": 0.031470198184251785,
+      "p_mut": 0.003260524244979024,
+      "verdict": "DELETERIOUS"
+    },
+    {
+      "mutation": "S103C",
+      "position": 103,
+      "wt_amino_acid": "S",
+      "mut_amino_acid": "C",
+      "category": "Candidate Mutation",
+      "llr_score": -7.812552452087402,
+      "p_wt": 0.3097284734249115,
+      "p_mut": 0.00012532358232419938,
+      "verdict": "DELETERIOUS"
+    },
+    {
+      "mutation": "T113P",
+      "position": 113,
+      "wt_amino_acid": "T",
+      "mut_amino_acid": "P",
+      "category": "Candidate Mutation",
+      "llr_score": 0.6612553596496582,
+      "p_wt": 0.021418165415525436,
+      "p_mut": 0.04149175435304642,
+      "verdict": "FAVORABLE"
+    },
+    {
+      "mutation": "Q126C",
+      "position": 126,
+      "wt_amino_acid": "Q",
+      "mut_amino_acid": "C",
+      "category": "Candidate Mutation",
+      "llr_score": -2.530381917953491,
+      "p_wt": 0.06684726476669312,
+      "p_mut": 0.005322954151779413,
+      "verdict": "DELETERIOUS"
+    },
+    {
+      "mutation": "N288P",
+      "position": 288,
+      "wt_amino_acid": "N",
+      "mut_amino_acid": "P",
+      "category": "Candidate Mutation",
+      "llr_score": 0.6607909202575684,
+      "p_wt": 0.05346423014998436,
+      "p_mut": 0.10352403670549393,
+      "verdict": "FAVORABLE"
+    },
+    {
+      "mutation": "S121E",
+      "position": 121,
+      "wt_amino_acid": "S",
+      "mut_amino_acid": "E",
+      "category": "Positive Control (FAST/Thermo)",
+      "llr_score": -1.2416706085205078,
+      "p_wt": 0.08973731845617294,
+      "p_mut": 0.02592521533370018,
+      "verdict": "BENIGN"
+    },
+    {
+      "mutation": "D186H",
+      "position": 186,
+      "wt_amino_acid": "D",
+      "mut_amino_acid": "H",
+      "category": "Positive Control (FAST/Thermo)",
+      "llr_score": -1.43477463722229,
+      "p_wt": 0.06261052936315536,
+      "p_mut": 0.014911889098584652,
+      "verdict": "BENIGN"
+    },
+    {
+      "mutation": "R280A",
+      "position": 280,
+      "wt_amino_acid": "R",
+      "mut_amino_acid": "A",
+      "category": "Positive Control (FAST/Thermo)",
+      "llr_score": 1.1971874237060547,
+      "p_wt": 0.035088714212179184,
+      "p_mut": 0.11617143452167511,
+      "verdict": "FAVORABLE"
+    },
+    {
+      "mutation": "W159H",
+      "position": 159,
+      "wt_amino_acid": "W",
+      "mut_amino_acid": "H",
+      "category": "Positive Control (DuraPETase)",
+      "llr_score": 1.0655441284179688,
+      "p_wt": 0.10662470757961273,
+      "p_mut": 0.30946946144104004,
+      "verdict": "FAVORABLE"
+    },
+    {
+      "mutation": "N233K",
+      "position": 233,
+      "wt_amino_acid": "N",
+      "mut_amino_acid": "K",
+      "category": "Positive Control (FAST-PETase)",
+      "llr_score": 1.0282459259033203,
+      "p_wt": 0.028433077037334442,
+      "p_mut": 0.07950334250926971,
+      "verdict": "FAVORABLE"
+    },
+    {
+      "mutation": "G165W",
+      "position": 165,
+      "wt_amino_acid": "G",
+      "mut_amino_acid": "W",
+      "category": "Negative Control (Active-Site Gly -> Trp)",
+      "llr_score": -2.3419594764709473,
+      "p_wt": 0.035545025020837784,
+      "p_mut": 0.003417265834286809,
+      "verdict": "DELETERIOUS"
+    },
+    {
+      "mutation": "A180P",
+      "position": 180,
+      "wt_amino_acid": "A",
+      "mut_amino_acid": "P",
+      "category": "Negative Control (Helix Core Ala -> Pro)",
+      "llr_score": -4.799190998077393,
+      "p_wt": 0.10642487555742264,
+      "p_mut": 0.0008765587117522955,
+      "verdict": "DELETERIOUS"
+    },
+    {
+      "mutation": "S160A",
+      "position": 160,
+      "wt_amino_acid": "S",
+      "mut_amino_acid": "A",
+      "category": "Negative Control (Catalytic Ser -> Ala)",
+      "llr_score": -3.2965073585510254,
+      "p_wt": 0.5330052971839905,
+      "p_mut": 0.019727706909179688,
+      "verdict": "DELETERIOUS"
+    }
+  ]
+}

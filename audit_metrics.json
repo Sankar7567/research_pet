@@ -1,0 +1,254 @@
+{
+  "timestamp_utc": "2026-11-10T06:14:05Z",
+  "proline_audits": {
+    "ASN30P": {
+      "position": 30,
+      "phi_deg": -80.75524139404297,
+      "psi_deg": 116.59339904785156,
+      "psi_i_minus_1_deg": 168.9954071044922,
+      "cand_n_cd_closure_dist_angstrom": 3.1503918170928955,
+      "passed_phi_threshold": true
+    },
+    "THR51P": {
+      "position": 51,
+      "phi_deg": -77.62330627441406,
+      "psi_deg": 137.05601501464844,
+      "psi_i_minus_1_deg": 148.3765869140625,
+      "cand_n_cd_closure_dist_angstrom": 3.144704818725586,
+      "passed_phi_threshold": true
+    },
+    "THR113P": {
+      "position": 113,
+      "phi_deg": -79.80846405029297,
+      "psi_deg": 160.35020446777344,
+      "psi_i_minus_1_deg": 141.33302307128906,
+      "cand_n_cd_closure_dist_angstrom": 3.138805627822876,
+      "passed_phi_threshold": true
+    },
+    "ASN288P": {
+      "position": 288,
+      "phi_deg": 58.401023864746094,
+      "psi_deg": 26.589719772338867,
+      "psi_i_minus_1_deg": 145.12229919433594,
+      "cand_n_cd_closure_dist_angstrom": 3.1381118297576904,
+      "passed_phi_threshold": false
+    }
+  },
+  "disulfide_audits": {
+    "Cys48_Cys103": {
+      "d_ca_angstrom": 4.654561996459961,
+      "d_cb_angstrom": 3.4182839393615723,
+      "d_ss_angstrom": 2.0503952503204346,
+      "angle_cb_sg_sg_1_deg": 77.99549102783203,
+      "angle_cb_sg_sg_2_deg": 73.28397369384766,
+      "chi3_ss_dihedral_deg": 131.36581420898438
+    },
+    "Cys63_Cys126": {
+      "d_ca_angstrom": 5.161906719207764,
+      "d_cb_angstrom": 3.8970396518707275,
+      "d_ss_angstrom": 2.0492403507232666,
+      "angle_cb_sg_sg_1_deg": 83.72700500488281,
+      "angle_cb_sg_sg_2_deg": 85.37171173095703,
+      "chi3_ss_dihedral_deg": 161.21701049804688
+    },
+    "Native_Cys203_Cys239": {
+      "d_ca_angstrom": 5.868500232696533,
+      "d_cb_angstrom": 3.8339219093322754,
+      "d_ss_angstrom": 2.0411548614501953,
+      "angle_cb_sg_sg_1_deg": 103.81866455078125,
+      "angle_cb_sg_sg_2_deg": 108.0499496459961,
+      "chi3_ss_dihedral_deg": -84.50606536865234
+    },
+    "Native_Cys273_Cys289": {
+      "d_ca_angstrom": 5.521460056304932,
+      "d_cb_angstrom": 3.6837525367736816,
+      "d_ss_angstrom": 2.0525622367858887,
+      "angle_cb_sg_sg_1_deg": 103.58629608154297,
+      "angle_cb_sg_sg_2_deg": 104.76522064208984,
+      "chi3_ss_dihedral_deg": -79.54515075683594
+    }
+  },
+  "esm2_audits": {
+    "model_name": "facebook/esm2_t6_8M_UR50D",
+    "evaluation_timestamp": "2026-11-10T06:12:00Z",
+    "candidate_llr_sum": -15.571283340454102,
+    "results": [
+      {
+        "mutation": "N30P",
+        "position": 30,
+        "wt_amino_acid": "N",
+        "mut_amino_acid": "P",
+        "category": "Candidate Mutation",
+        "llr_score": 0.5512919425964355,
+        "p_wt": 0.04315913841128349,
+        "p_mut": 0.07490241527557373,
+        "verdict": "FAVORABLE"
+      },
+      {
+        "mutation": "G48C",
+        "position": 48,
+        "wt_amino_acid": "G",
+        "mut_amino_acid": "C",
+        "category": "Candidate Mutation",
+        "llr_score": -3.871534824371338,
+        "p_wt": 0.1220826655626297,
+        "p_mut": 0.0025425399653613567,
+        "verdict": "DELETERIOUS"
+      },
+      {
+        "mutation": "T51P",
+        "position": 51,
+        "wt_amino_acid": "T",
+        "mut_amino_acid": "P",
+        "category": "Candidate Mutation",
+        "llr_score": -0.9629993438720703,
+        "p_wt": 0.1655283421278,
+        "p_mut": 0.06318981200456619,
+        "verdict": "BENIGN"
+      },
+      {
+        "mutation": "Y63C",
+        "position": 63,
+        "wt_amino_acid": "Y",
+        "mut_amino_acid": "C",
+        "category": "Candidate Mutation",
+        "llr_score": -2.267153024673462,
+        "p_wt": 0.031470198184251785,
+        "p_mut": 0.003260524244979024,
+        "verdict": "DELETERIOUS"
+      },
+      {
+        "mutation": "S103C",
+        "position": 103,
+        "wt_amino_acid": "S",
+        "mut_amino_acid": "C",
+        "category": "Candidate Mutation",
+        "llr_score": -7.812552452087402,
+        "p_wt": 0.3097284734249115,
+        "p_mut": 0.00012532358232419938,
+        "verdict": "DELETERIOUS"
+      },
+      {
+        "mutation": "T113P",
+        "position": 113,
+        "wt_amino_acid": "T",
+        "mut_amino_acid": "P",
+        "category": "Candidate Mutation",
+        "llr_score": 0.6612553596496582,
+        "p_wt": 0.021418165415525436,
+        "p_mut": 0.04149175435304642,
+        "verdict": "FAVORABLE"
+      },
+      {
+        "mutation": "Q126C",
+        "position": 126,
+        "wt_amino_acid": "Q",
+        "mut_amino_acid": "C",
+        "category": "Candidate Mutation",
+        "llr_score": -2.530381917953491,
+        "p_wt": 0.06684726476669312,
+        "p_mut": 0.005322954151779413,
+        "verdict": "DELETERIOUS"
+      },
+      {
+        "mutation": "N288P",
+        "position": 288,
+        "wt_amino_acid": "N",
+        "mut_amino_acid": "P",
+        "category": "Candidate Mutation",
+        "llr_score": 0.6607909202575684,
+        "p_wt": 0.05346423014998436,
+        "p_mut": 0.10352403670549393,
+        "verdict": "FAVORABLE"
+      },
+      {
+        "mutation": "S121E",
+        "position": 121,
+        "wt_amino_acid": "S",
+        "mut_amino_acid": "E",
+        "category": "Positive Control (FAST/Thermo)",
+        "llr_score": -1.2416706085205078,
+        "p_wt": 0.08973731845617294,
+        "p_mut": 0.02592521533370018,
+        "verdict": "BENIGN"
+      },
+      {
+        "mutation": "D186H",
+        "position": 186,
+        "wt_amino_acid": "D",
+        "mut_amino_acid": "H",
+        "category": "Positive Control (FAST/Thermo)",
+        "llr_score": -1.43477463722229,
+        "p_wt": 0.06261052936315536,
+        "p_mut": 0.014911889098584652,
+        "verdict": "BENIGN"
+      },
+      {
+        "mutation": "R280A",
+        "position": 280,
+        "wt_amino_acid": "R",
+        "mut_amino_acid": "A",
+        "category": "Positive Control (FAST/Thermo)",
+        "llr_score": 1.1971874237060547,
+        "p_wt": 0.035088714212179184,
+        "p_mut": 0.11617143452167511,
+        "verdict": "FAVORABLE"
+      },
+      {
+        "mutation": "W159H",
+        "position": 159,
+        "wt_amino_acid": "W",
+        "mut_amino_acid": "H",
+        "category": "Positive Control (DuraPETase)",
+        "llr_score": 1.0655441284179688,
+        "p_wt": 0.10662470757961273,
+        "p_mut": 0.30946946144104004,
+        "verdict": "FAVORABLE"
+      },
+      {
+        "mutation": "N233K",
+        "position": 233,
+        "wt_amino_acid": "N",
+        "mut_amino_acid": "K",
+        "category": "Positive Control (FAST-PETase)",
+        "llr_score": 1.0282459259033203,
+        "p_wt": 0.028433077037334442,
+        "p_mut": 0.07950334250926971,
+        "verdict": "FAVORABLE"
+      },
+      {
+        "mutation": "G165W",
+        "position": 165,
+        "wt_amino_acid": "G",
+        "mut_amino_acid": "W",
+        "category": "Negative Control (Active-Site Gly -> Trp)",
+        "llr_score": -2.3419594764709473,
+        "p_wt": 0.035545025020837784,
+        "p_mut": 0.003417265834286809,
+        "verdict": "DELETERIOUS"
+      },
+      {
+        "mutation": "A180P",
+        "position": 180,
+        "wt_amino_acid": "A",
+        "mut_amino_acid": "P",
+        "category": "Negative Control (Helix Core Ala -> Pro)",
+        "llr_score": -4.799190998077393,
+        "p_wt": 0.10642487555742264,
+        "p_mut": 0.0008765587117522955,
+        "verdict": "DELETERIOUS"
+      },
+      {
+        "mutation": "S160A",
+        "position": 160,
+        "wt_amino_acid": "S",
+        "mut_amino_acid": "A",
+        "category": "Negative Control (Catalytic Ser -> Ala)",
+        "llr_score": -3.2965073585510254,
+        "p_wt": 0.5330052971839905,
+        "p_mut": 0.019727706909179688,
+        "verdict": "DELETERIOUS"
+      }
+    ]
+  }
+}
