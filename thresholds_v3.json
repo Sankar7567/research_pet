@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "protocol_version": "3.0.0-skeptical-self-auditing",
+    "timestamp_utc": "2026-11-10T07:31:00Z",
+    "auditor": "Skeptical Computational Protein Engineering Self-Auditing Team",
+    "purpose": "Phase B pre-registered criteria for PETase variant validation, structural gates, MD simulation, and manuscript outcome decision",
+    "hard_rules": [
+      "Never invent, estimate from memory, or round-fabricate any number.",
+      "Every reported value must trace to a logged tool run on disk.",
+      "Predicted values must be explicitly labeled as 'predicted'.",
+      "Predicted and literature-measured values never share a column without explicit labels.",
+      "Never state or imply a Tm for any designed variant without experimental calibration.",
+      "Pre-registered thresholds are LOCKED. Never edit after seeing results.",
+      "Forbidden words for designs: 'discovery', 'validated', 'novel', 'unprecedented', 'breakthrough', 'guaranteed', '0% overlap'."
+    ]
+  },
+  "validation_protocol": {
+    "held_out_set_requirement": ">=30 literature PETase variants with experimental Tm/DeltaTm, each with DOI and source table/figure, excluding mutations in FAST/Thermo/Dura/Hot backgrounds. If fewer exist, report actual n and weaken claims accordingly without padding.",
+    "correlation_metric": "Signed Spearman rank correlation coefficient (rho)",
+    "sign_convention": "ThermoMPNN: negative ddG = stabilizing; Experimental: positive DeltaTm = stabilizing. Expected rho is NEGATIVE.",
+    "bootstrap_replicates": 10000,
+    "confidence_interval_level": 0.95,
+    "pass_criterion": {
+      "min_abs_spearman_rho": 0.50,
+      "ci_must_exclude_zero": true,
+      "expected_sign_required": true,
+      "interpretation": "rho <= -0.50 AND 95% bootstrap CI upper bound < 0.0"
+    },
+    "predictors": {
+      "primary": "ThermoMPNN v1 (Dieckhaus et al. 2024, PNAS 10.1073/pnas.2314853121)",
+      "secondary": "ESM-2 masked language model (Lin et al. 2023, Science 10.1126/science.ade2574)",
+      "foldx": "BLOCKED (not installed on host)",
+      "rosetta": "BLOCKED (not installed on host)",
+      "pross_fireprot": "BLOCKED (web-only service, no offline API)"
+    }
+  },
+  "structural_gates": {
+    "min_distance_to_catalytic_triad_angstrom": 8.0,
+    "catalytic_triad_residues_6eqe": [160, 206, 237],
+    "native_disulfide_cysteines_6eqe": [203, 239, 273, 289],
+    "native_disulfide_buffer_zone_residues": 2,
+    "proline_phi_min_deg": -90.0,
+    "proline_phi_max_deg": -40.0,
+    "proline_ring_closure_max_c_delta_n_angstrom": 1.55,
+    "clash_distance_threshold_angstrom": 2.2,
+    "clash_includes_i_minus_1": true,
+    "clash_includes_i_plus_1": true,
+    "forbidden_background_mutated_positions_fast": [121, 186, 224, 233, 280]
+  },
+  "molecular_dynamics_gates": {
+    "min_replicas": 3,
+    "min_duration_ns": 100,
+    "temperatures_k": [300, 350],
+    "engine": "OpenMM 8.6.1 (CPU/OpenCL platform)",
+    "pass_criteria": {
+      "variant_rmsd_not_worse_than_background": true,
+      "triad_distances_within_angstrom_of_background": 0.5,
+      "native_disulfides_intact": true
+    }
+  },
+  "decision_rule_for_outcome": {
+    "rule": "IF (validation passes pre-registered criterion) AND (>=1 candidate passes all structural, predictor consensus, and MD gates) THEN OUTCOME = 'DESIGN' (methods + computational shortlist paper) ELSE OUTCOME = 'AUDIT-ONLY' (negative-result / forensic audit paper of automated AI-agent protein design).",
+    "mandatory_section_both_outcomes": "Audit story of Round 1 failure (0.0000 Å RMSD bug, additive scalar heuristic ddG bug, unclosed proline rings, positive-phi prolines, clash checker skipping i+/-1)."
+  }
+}

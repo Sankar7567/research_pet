@@ -1,0 +1,184 @@
+{
+  "timestamp_utc": "2026-11-10T07:33:21.293617Z",
+  "thresholds_v3_sha256": "32cb1429033bba8e2f9ed011eb89ee69fdd5f9faa4bd26c37d4a35a6260ff9ee",
+  "actual_n_held_out": 8,
+  "held_out_variants": [
+    {
+      "variant_id": "Son2019_P181A",
+      "mutations_6eqe": [
+        {
+          "wt": "P",
+          "pos": 181,
+          "mut": "A"
+        }
+      ],
+      "delta_Tm_exp_C": 0.45,
+      "Tm_exp_C": 49.25,
+      "method": "DSF (Protein Thermal Shift)",
+      "doi": "10.1021/acscatal.9b00568",
+      "source": "Son et al. 2019, ACS Catalysis, Table S2",
+      "category": "held_out",
+      "ddG_pred_thermompnn_kcal_mol": 2.419,
+      "llr_pred_esm2": 0.6922
+    },
+    {
+      "variant_id": "Son2019_W185A",
+      "mutations_6eqe": [
+        {
+          "wt": "W",
+          "pos": 185,
+          "mut": "A"
+        }
+      ],
+      "delta_Tm_exp_C": -2.8,
+      "Tm_exp_C": 46.0,
+      "method": "DSF (Protein Thermal Shift)",
+      "doi": "10.1021/acscatal.9b00568",
+      "source": "Son et al. 2019, ACS Catalysis, Table S2",
+      "category": "held_out",
+      "ddG_pred_thermompnn_kcal_mol": 2.1512,
+      "llr_pred_esm2": 0.7797
+    },
+    {
+      "variant_id": "Son2019_S160A",
+      "mutations_6eqe": [
+        {
+          "wt": "S",
+          "pos": 160,
+          "mut": "A"
+        }
+      ],
+      "delta_Tm_exp_C": -4.5,
+      "Tm_exp_C": 44.3,
+      "method": "DSF (Protein Thermal Shift)",
+      "doi": "10.1021/acscatal.9b00568",
+      "source": "Son et al. 2019, ACS Catalysis, Table S2",
+      "category": "held_out_control",
+      "ddG_pred_thermompnn_kcal_mol": 0.4518,
+      "llr_pred_esm2": -3.2965
+    },
+    {
+      "variant_id": "Joo2018_C203A_C239A",
+      "mutations_6eqe": [
+        {
+          "wt": "C",
+          "pos": 203,
+          "mut": "A"
+        },
+        {
+          "wt": "C",
+          "pos": 239,
+          "mut": "A"
+        }
+      ],
+      "delta_Tm_exp_C": -13.0,
+      "Tm_exp_C": 35.8,
+      "method": "Protein Thermal Shift (DSF)",
+      "doi": "10.1038/s41467-018-02881-1",
+      "source": "Joo et al. 2018, Nature Communications, Fig. 2c",
+      "category": "held_out_disulfide_knockout",
+      "ddG_pred_thermompnn_kcal_mol": -0.0856,
+      "llr_pred_esm2": 3.6385
+    },
+    {
+      "variant_id": "Meng2021_F229Y",
+      "mutations_6eqe": [
+        {
+          "wt": "F",
+          "pos": 229,
+          "mut": "Y"
+        }
+      ],
+      "delta_Tm_exp_C": 3.6,
+      "Tm_exp_C": 54.4,
+      "method": "DSF (SYPRO Orange)",
+      "doi": "10.1016/j.ijbiomac.2021.03.058",
+      "source": "Meng et al. 2021, Int. J. Biol. Macromol., Table 1",
+      "category": "held_out",
+      "ddG_pred_thermompnn_kcal_mol": 0.3883,
+      "llr_pred_esm2": -0.0798
+    },
+    {
+      "variant_id": "Ding2024_K95A",
+      "mutations_6eqe": [
+        {
+          "wt": "K",
+          "pos": 95,
+          "mut": "A"
+        }
+      ],
+      "delta_Tm_exp_C": 1.2,
+      "Tm_exp_C": 44.7,
+      "method": "DSF (Prometheus nanoDSF)",
+      "doi": "10.1016/j.bej.2024.109420",
+      "source": "Ding et al. 2024, Biochem. Eng. J., Table 1",
+      "category": "held_out",
+      "ddG_pred_thermompnn_kcal_mol": -0.4299,
+      "llr_pred_esm2": 1.2931
+    },
+    {
+      "variant_id": "Ding2024_R132N",
+      "mutations_6eqe": [
+        {
+          "wt": "R",
+          "pos": 132,
+          "mut": "N"
+        }
+      ],
+      "delta_Tm_exp_C": -0.8,
+      "Tm_exp_C": 42.7,
+      "method": "DSF (Prometheus nanoDSF)",
+      "doi": "10.1016/j.bej.2024.109420",
+      "source": "Ding et al. 2024, Biochem. Eng. J., Table 1",
+      "category": "held_out",
+      "ddG_pred_thermompnn_kcal_mol": 0.6626,
+      "llr_pred_esm2": -0.3184
+    },
+    {
+      "variant_id": "Brott2022_F201I",
+      "mutations_6eqe": [
+        {
+          "wt": "F",
+          "pos": 201,
+          "mut": "I"
+        }
+      ],
+      "delta_Tm_exp_C": 2.8,
+      "Tm_exp_C": 51.6,
+      "method": "DSF (nanoDSF)",
+      "doi": "10.1002/elsc.202100105",
+      "source": "Brott et al. 2022, Eng. Life Sci., Table 1",
+      "category": "held_out",
+      "ddG_pred_thermompnn_kcal_mol": 0.7021,
+      "llr_pred_esm2": 0.9615
+    }
+  ],
+  "statistical_evaluation": {
+    "thermompnn": {
+      "observed_rho": 0.023809523809523815,
+      "ci_lower_95": -0.6790123456790124,
+      "ci_upper_95": 0.9230769230769231,
+      "ci_excludes_zero": false,
+      "expected_negative_sign": false,
+      "n_samples": 8,
+      "n_valid_bootstraps": 10000
+    },
+    "esm2": {
+      "observed_rho": -0.023809523809523815,
+      "ci_lower_95": -0.8481012658227849,
+      "ci_upper_95": 0.8987341772151901,
+      "ci_excludes_zero": false,
+      "expected_negative_sign": true,
+      "n_samples": 8,
+      "n_valid_bootstraps": 10000
+    }
+  },
+  "pre_registered_pass_criteria": {
+    "threshold_min_abs_rho": 0.5,
+    "ci_must_exclude_zero": true,
+    "expected_sign": "negative",
+    "passed": false
+  },
+  "project_outcome": "AUDIT-ONLY",
+  "outcome_reason": "Retrospective validation failed pre-registered gate on held-out set (rho = +0.024, 95% CI [-0.679, +0.923], n=8). Because sample size is small and confidence interval spans zero / does not satisfy pre-registered thresholds, claims of computationally validated design are NOT supported. Manuscript OUTCOME is locked to AUDIT-ONLY."
+}

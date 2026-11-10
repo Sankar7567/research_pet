@@ -1,3 +1,11 @@
+% ===== RETRACTED =====
+% This file contains fabricated data and has been formally retracted.
+% Specific fabrications: Tm=88.7°C (no experimental basis), ΔΔG=-15.15 kcal/mol
+% (additive scalar heuristics, no force field), RMSD=0.0000 Å (coordinates
+% copied verbatim from template, never moved). See petase_skeptical_audit_report.md
+% for full forensic analysis. File preserved for audit trail only.
+% Retracted: 2026-11-10T07:00:45Z
+% ===== END RETRACTION NOTICE =====
 # Computational Discovery Report: Novel Thermostable IsPETase Variant
 **Date:** 2026-11-10 04:11:26 UTC  
 **Target:** High-Thermostability Poly(ethylene terephthalate) Hydrolase (*Ideonella sakaiensis*)  

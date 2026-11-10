@@ -1,0 +1,24 @@
+name: petase-engineering-audit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.15
+  - openmm=8.6.1
+  - mdtraj=1.11.1.post2
+  - pdbfixer=1.12.0
+  - numpy=2.4.6
+  - scipy=1.17.1
+  - biopython=1.85
+  - pytorch=2.13.0
+  - transformers=5.17.0
+  - omegaconf=2.4.0
+  - pandas=3.0.5
+  - tqdm=4.70.0
+# External CLI tools:
+# - tectonic=0.17.0 (LaTeX PDF compilation)
+# - uv=0.12.10 (package management)
+# Unavailable / blocked branches:
+# - gromacs (not installed)
+# - foldx (proprietary license, not installed)
+# - rosetta / pyrosetta (commercial/academic license, not installed)

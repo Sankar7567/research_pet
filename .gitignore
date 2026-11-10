@@ -5,3 +5,5 @@ __pycache__/
 discovered_candidates.db
 discovered_candidates.json
 6EQE.pdb
+env_openmm/
+ThermoMPNN/
