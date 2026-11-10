@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*model.pdb
+5XG0.pdb
+discovered_candidates.db
+discovered_candidates.json
