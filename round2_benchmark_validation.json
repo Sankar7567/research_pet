@@ -1,0 +1,85 @@
+{
+  "timestamp_utc": "2026-11-10T06:45:37.417022Z",
+  "step": "STEP_1_RETROSPECTIVE_VALIDATION",
+  "structure": "/home/sankar/Desktop/research_2/6EQE.pdb",
+  "chain": "A",
+  "n_benchmark": 7,
+  "spearman_rho": -0.8929,
+  "spearman_pvalue": 0.0068,
+  "abs_spearman_rho": 0.8929,
+  "threshold": 0.6,
+  "gate": "PASS",
+  "note": "ddG<0 = predicted stabilising; \u0394Tm>0 = experimentally stabilising. Expect negative rho.",
+  "benchmark_rows": [
+    {
+      "pos_6eqe": 121,
+      "wt": "S",
+      "mut": "E",
+      "delta_Tm_exp_C": 2.1,
+      "doi": "10.1021/acscatal.8b04477",
+      "status": "OK",
+      "ddG_pred_kcal_mol": 0.0216,
+      "label": "predicted \u2014 ThermoMPNN v1 (Dieckhaus et al. 2024, 10.1073/pnas.2314853121)"
+    },
+    {
+      "pos_6eqe": 186,
+      "wt": "D",
+      "mut": "H",
+      "delta_Tm_exp_C": 3.4,
+      "doi": "10.1021/acscatal.8b04477",
+      "status": "OK",
+      "ddG_pred_kcal_mol": -0.512,
+      "label": "predicted \u2014 ThermoMPNN v1 (Dieckhaus et al. 2024, 10.1073/pnas.2314853121)"
+    },
+    {
+      "pos_6eqe": 280,
+      "wt": "R",
+      "mut": "A",
+      "delta_Tm_exp_C": 1.9,
+      "doi": "10.1021/acscatal.8b04477",
+      "status": "OK",
+      "ddG_pred_kcal_mol": -0.0686,
+      "label": "predicted \u2014 ThermoMPNN v1 (Dieckhaus et al. 2024, 10.1073/pnas.2314853121)"
+    },
+    {
+      "pos_6eqe": 233,
+      "wt": "N",
+      "mut": "K",
+      "delta_Tm_exp_C": 3.2,
+      "doi": "10.1038/s41586-022-04599-z",
+      "status": "OK",
+      "ddG_pred_kcal_mol": -1.1984,
+      "label": "predicted \u2014 ThermoMPNN v1 (Dieckhaus et al. 2024, 10.1073/pnas.2314853121)"
+    },
+    {
+      "pos_6eqe": 224,
+      "wt": "R",
+      "mut": "Q",
+      "delta_Tm_exp_C": 1.4,
+      "doi": "10.1038/s41586-022-04599-z",
+      "status": "OK",
+      "ddG_pred_kcal_mol": 0.3777,
+      "label": "predicted \u2014 ThermoMPNN v1 (Dieckhaus et al. 2024, 10.1073/pnas.2314853121)"
+    },
+    {
+      "pos_6eqe": 160,
+      "wt": "S",
+      "mut": "A",
+      "delta_Tm_exp_C": -4.5,
+      "doi": "10.1021/acscatal.8b04477",
+      "status": "OK",
+      "ddG_pred_kcal_mol": 0.4518,
+      "label": "predicted \u2014 ThermoMPNN v1 (Dieckhaus et al. 2024, 10.1073/pnas.2314853121)"
+    },
+    {
+      "pos_6eqe": 185,
+      "wt": "W",
+      "mut": "A",
+      "delta_Tm_exp_C": -2.8,
+      "doi": "10.1021/acscatal.8b04477",
+      "status": "OK",
+      "ddG_pred_kcal_mol": 2.1512,
+      "label": "predicted \u2014 ThermoMPNN v1 (Dieckhaus et al. 2024, 10.1073/pnas.2314853121)"
+    }
+  ]
+}

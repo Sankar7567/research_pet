@@ -1,0 +1,64 @@
+{
+  "timestamp_utc": "2026-11-10T06:45:36.781680Z",
+  "step": "STEP_0_TOOL_INVENTORY",
+  "tools": {
+    "torch": {
+      "status": "AVAILABLE",
+      "version": "2.13.0+cu130"
+    },
+    "biopython": {
+      "status": "AVAILABLE",
+      "version": "1.88"
+    },
+    "scipy": {
+      "status": "AVAILABLE",
+      "version": "1.18.0"
+    },
+    "numpy": {
+      "status": "AVAILABLE",
+      "version": "2.5.1"
+    },
+    "omegaconf": {
+      "status": "AVAILABLE",
+      "version": "2.4.0"
+    },
+    "pandas": {
+      "status": "AVAILABLE",
+      "version": "3.0.5"
+    },
+    "pytorch_cuda": {
+      "status": "AVAILABLE",
+      "device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+    },
+    "ThermoMPNN_model": {
+      "status": "AVAILABLE",
+      "path": "/home/sankar/Desktop/research_2/ThermoMPNN/models/thermoMPNN_default.pt",
+      "size_bytes": 38894003
+    },
+    "6EQE_pdb": {
+      "status": "AVAILABLE",
+      "path": "/home/sankar/Desktop/research_2/6EQE.pdb",
+      "size_bytes": 614952
+    },
+    "OpenMM": {
+      "status": "BLOCKED",
+      "reason": "not installed on this system"
+    },
+    "GROMACS": {
+      "status": "BLOCKED",
+      "reason": "not installed on this system"
+    },
+    "FoldX": {
+      "status": "BLOCKED",
+      "reason": "not installed on this system"
+    },
+    "Rosetta": {
+      "status": "BLOCKED",
+      "reason": "not installed on this system"
+    },
+    "torchmetrics": {
+      "status": "BLOCKED",
+      "reason": "not installed on this system"
+    }
+  }
+}

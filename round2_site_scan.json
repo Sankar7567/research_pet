@@ -1,0 +1,3299 @@
+{
+  "timestamp_utc": "2026-11-10T06:45:37.676538Z",
+  "step": "STEP_3_SINGLE_SITE_SCAN",
+  "n_scored": 450,
+  "top20_predicted_stabilising": [
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": -0.9735,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": -0.5311,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": -0.512,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": -0.4633,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.4626,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": -0.4617,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": -0.4311,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": -0.4274,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": -0.4236,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.4144,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": -0.4131,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.3396,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": -0.3227,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": -0.3029,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": -0.2795,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": -0.2732,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": -0.2721,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": -0.2567,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": -0.2434,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": -0.2383,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    }
+  ],
+  "all_results": [
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": -0.9735,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": -0.5311,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": -0.512,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": -0.4633,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.4626,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": -0.4617,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": -0.4311,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": -0.4274,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": -0.4236,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.4144,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": -0.4131,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.3396,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": -0.3227,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": -0.3029,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": -0.2795,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": -0.2732,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": -0.2721,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": -0.2567,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": -0.2434,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": -0.2383,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": -0.2288,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": -0.2264,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": -0.2254,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": -0.2011,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.1993,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": -0.1823,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": -0.1822,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": -0.1714,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": -0.1704,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": -0.1679,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": -0.1673,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": -0.1647,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": -0.1643,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": -0.1527,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": -0.1451,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": -0.1424,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": -0.1411,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": -0.1369,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": -0.1351,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": -0.1334,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.1298,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": -0.127,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": -0.1177,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": -0.1164,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": -0.1142,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": -0.1078,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": -0.1051,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": -0.1036,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": -0.1011,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": -0.0986,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": -0.0946,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": -0.0914,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": -0.0906,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": -0.0871,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": -0.0843,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": -0.0756,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": -0.0752,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": -0.0741,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": -0.073,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": -0.0703,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.0686,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": -0.0673,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.0653,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": -0.0644,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": -0.0625,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": -0.0598,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": -0.0584,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": -0.057,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": -0.0563,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": -0.0546,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.046,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": -0.0448,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": -0.0448,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": -0.0436,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": -0.0402,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": -0.0388,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": -0.035,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": -0.0317,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": -0.0306,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": -0.0289,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": -0.0281,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": -0.027,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": -0.0248,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": -0.0237,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": -0.021,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": -0.0167,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": -0.0158,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": -0.0136,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": -0.0134,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.0134,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": -0.0128,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": -0.0093,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": -0.0063,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": -0.0062,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": -0.0038,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 0.0002,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.0002,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.0093,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.0104,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.0117,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.0119,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.0141,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.0156,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.0173,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.0173,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": 0.0202,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.0281,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.0322,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.0327,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.0334,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.0336,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.0359,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.0375,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.0386,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.0403,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.0409,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.0442,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.0481,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.0489,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.0517,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.0536,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 0.0548,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.0548,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.0565,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.0568,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.0576,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.062,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.0625,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.0627,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.0678,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.0703,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.0799,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.0805,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.0824,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.0869,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.0919,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.0972,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.1003,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.1006,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.1019,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.1046,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.1061,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": 0.1082,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.1114,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": 0.1127,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.1144,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.1152,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.1161,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.1215,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.1239,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.1255,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.1274,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.1294,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.132,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.1385,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.1408,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.1413,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.1432,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.1442,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.1458,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.1482,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.1488,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.1489,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.1503,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 0.152,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.1526,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.1548,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.1568,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.1596,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.1651,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.166,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 291,
+      "wt_aa": "L",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.1692,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.1703,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.1727,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.1735,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.1747,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.1778,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.1788,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.1819,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.1824,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.1828,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.1832,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.1845,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.1866,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.1874,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.19,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.1907,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 293,
+      "wt_aa": "H",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.1912,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.193,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.1972,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.1973,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.1993,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.2024,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 212,
+      "wt_aa": "N",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.2025,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.2028,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.2078,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.214,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 29,
+      "wt_aa": "T",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.217,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.2248,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.2281,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.2293,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.2297,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.233,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.2356,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.2369,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.2396,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.2416,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.242,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.2508,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.2542,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.2543,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.255,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.256,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.2628,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.2649,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.2656,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.2679,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.2756,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.2767,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.2777,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.2786,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": 0.2813,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.2864,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.2878,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.2879,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 0.2882,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.2886,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.2911,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.2915,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 0.2929,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.2963,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.2964,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.3041,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.3057,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.3096,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.3114,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.3116,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.32,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.3201,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.3252,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.3259,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.3296,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.3298,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.3313,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.3313,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.3315,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.332,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.3358,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.3358,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 0.3387,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.34,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.3409,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.343,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.3516,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.3576,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.368,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.3688,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.3706,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.3725,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.377,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.3773,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.3863,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.3878,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.3917,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.3924,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.3957,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.4027,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.4033,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.408,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.4087,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.4156,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.4159,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.4179,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.42,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 187,
+      "wt_aa": "S",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.4222,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.4227,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.4269,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.4303,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.4352,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 0.4357,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.4365,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.4388,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.4399,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.4408,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.4423,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.4438,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.4456,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.4497,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.4511,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.4534,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.4536,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.4565,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.4573,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.4579,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.4651,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.4676,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.4687,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.4749,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.4753,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.4837,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.4847,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 279,
+      "wt_aa": "T",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.4859,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.4871,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.4879,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.4885,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.493,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": 0.4944,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.4949,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 292,
+      "wt_aa": "E",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 0.5042,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.5101,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.5174,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.5174,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 58,
+      "wt_aa": "S",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.5231,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.5245,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.5328,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.533,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.5357,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.537,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.5465,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.548,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.5663,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.5699,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.5705,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.5819,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.5879,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.5892,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.5892,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": 0.6017,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.6082,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.6091,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.6148,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.6152,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 141,
+      "wt_aa": "S",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.6184,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.6288,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.6299,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.6389,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.6424,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": 0.6432,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.6477,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.6487,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.6568,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.6576,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.6613,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.6761,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.6763,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": 0.6781,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.6787,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.6925,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.6925,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.6958,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.7084,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.7088,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 290,
+      "wt_aa": "S",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.7136,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 0.7149,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 0.7195,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.7289,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.7313,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.739,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": 0.7433,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 0.7461,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.7572,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.7578,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.7609,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.766,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.7709,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.7751,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.7756,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.7817,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.7837,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.7882,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 0.8262,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.8268,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 0.8308,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.8313,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.8314,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.8318,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.8397,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.8413,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.8541,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.8572,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.8609,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 0.864,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.8658,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.8787,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 0.8825,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 0.899,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.9154,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 0.94,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.947,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 144,
+      "wt_aa": "P",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 0.9476,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 90,
+      "wt_aa": "R",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 0.9496,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 0.9641,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 0.9654,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 0.9678,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 0.9776,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 0.9882,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 0.9884,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 0.9945,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 1.0013,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 1.0014,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 1.0203,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 1.029,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 31,
+      "wt_aa": "P",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 1.0366,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 142,
+      "wt_aa": "S",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 1.0461,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 1.0471,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 1.058,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 1.0603,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 1.0702,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "N",
+      "ddG_pred_kcal_mol": 1.0737,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 1.0739,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 1.0945,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 1.0953,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 1.1075,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 1.1081,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 1.114,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 1.1237,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 1.1374,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 1.1551,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 1.1574,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "D",
+      "ddG_pred_kcal_mol": 1.1584,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 1.1684,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "F",
+      "ddG_pred_kcal_mol": 1.1849,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 1.2084,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 36,
+      "wt_aa": "P",
+      "mut_aa": "H",
+      "ddG_pred_kcal_mol": 1.2182,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 186,
+      "wt_aa": "D",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 1.2343,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "M",
+      "ddG_pred_kcal_mol": 1.2429,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 280,
+      "wt_aa": "R",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 1.2542,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "S",
+      "ddG_pred_kcal_mol": 1.2665,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "L",
+      "ddG_pred_kcal_mol": 1.2796,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "A",
+      "ddG_pred_kcal_mol": 1.3185,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 1.3362,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "Q",
+      "ddG_pred_kcal_mol": 1.3406,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "Y",
+      "ddG_pred_kcal_mol": 1.3515,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 1.3538,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "K",
+      "ddG_pred_kcal_mol": 1.355,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "E",
+      "ddG_pred_kcal_mol": 1.4055,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "W",
+      "ddG_pred_kcal_mol": 1.4091,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "R",
+      "ddG_pred_kcal_mol": 1.4148,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "T",
+      "ddG_pred_kcal_mol": 1.4505,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "G",
+      "ddG_pred_kcal_mol": 1.501,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 193,
+      "wt_aa": "S",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 1.5385,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "I",
+      "ddG_pred_kcal_mol": 1.6521,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 188,
+      "wt_aa": "S",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 1.6937,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "V",
+      "ddG_pred_kcal_mol": 1.7371,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 139,
+      "wt_aa": "G",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 1.8649,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 75,
+      "wt_aa": "G",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 2.0133,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 190,
+      "wt_aa": "N",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 2.2741,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 140,
+      "wt_aa": "T",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 2.4541,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 53,
+      "wt_aa": "R",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 2.9068,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    },
+    {
+      "res_num_6eqe": 220,
+      "wt_aa": "D",
+      "mut_aa": "P",
+      "ddG_pred_kcal_mol": 3.8081,
+      "note": "predicted \u2014 ThermoMPNN v1"
+    }
+  ]
+}

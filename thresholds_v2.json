@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "protocol_version": "2.0.0-evidence-based",
+    "timestamp_utc": "2026-11-10T06:38:00Z",
+    "registered_by": "Skeptical Computational Protein Engineering Agent",
+    "purpose": "Round 2 PETase engineering — evidence-based design pipeline",
+    "hard_rule": "These thresholds are LOCKED. Any change requires a new versioned file (thresholds_v3.json) with a logged justification. NEVER edit this file after any results have been seen.",
+    "parent_thresholds_sha256": "fa8960b2d115b7dab2d20d012fb58ea2699efef3e50908c35d17a6e5b4157053",
+    "forbidden_actions": [
+      "Edit this file after seeing any pipeline results",
+      "Claim 'novel', 'unprecedented', or '0% patent overlap'",
+      "Report predicted Tm as measured Tm",
+      "Convert predicted ddG to Tm without a cited empirical calibration",
+      "Fabricate or round any number",
+      "Report RMSD of exactly 0.0000 without investigation"
+    ]
+  },
+  "step_1_retrospective_validation": {
+    "gate_name": "ThermoMPNN Spearman rho vs experimental delta_Tm",
+    "threshold_abs_spearman_rho_min": 0.60,
+    "n_benchmark_points_min": 5,
+    "action_if_fail": "BLOCK design steps 3 and 4. Report as NEGATIVE/BLOCKED result. Exit.",
+    "action_if_pass": "Proceed to design with explicit uncertainty labeling.",
+    "note": "Signed rho expected negative (ddG down = more stable = ΔTm up). Gate checks |rho|.",
+    "reference": "Dieckhaus et al. 2024 PNAS 10.1073/pnas.2314853121"
+  },
+  "step_2_site_selection": {
+    "frozen_residues_6eqe_numbering": [160, 206, 237, 203, 239, 273, 289],
+    "frozen_reason": "Catalytic triad (Ser160/Asp206/His237) + native disulfides (Cys203-Cys239, Cys273-Cys289). No mutations permitted.",
+    "also_exclude": "FAST-PETase positions already in background (121, 186, 280, 233, 224)",
+    "b_factor_source": "6EQE.pdb CA atoms, averaged over chain A",
+    "top_n_sites_for_scan": 30
+  },
+  "design_gates": {
+    "thermompnn_ddg_max_per_mutation_kcal_mol": 0.0,
+    "thermompnn_ddg_max_note": "Only consider mutations with predicted ddG < 0.0 (predicted stabilizing). Strict gate.",
+    "esm2_llr_min_per_mutation": -3.0,
+    "esm2_llr_min_note": "ESM-2 LLR below -3.0 suggests the mutation is severely disruptive to the evolutionary sequence context. Reject.",
+    "max_new_mutations_on_background": 6,
+    "max_new_mutations_note": "No more than 6 additional mutations on FAST-PETase or Hot-PETase background.",
+    "no_unpaired_cysteine": true,
+    "no_cys_in_single_site_scan": true,
+    "no_proline_outside_phi_range": true,
+    "proline_phi_allowed_min_deg": -85.0,
+    "proline_phi_allowed_max_deg": -45.0,
+    "max_designs_budget": 300
+  },
+  "step_4_combinatorial": {
+    "backgrounds_allowed": ["FAST-PETase", "Hot-PETase"],
+    "fast_petase_mutations_6eqe": {"121": "S->E", "186": "D->H", "280": "R->A", "233": "N->K", "224": "R->Q"},
+    "additivity_warning": "Mandatory: state that sum-of-individual-ddG is an APPROXIMATION. Epistasis not modeled.",
+    "ranking_criterion": "Sum of individual predicted ddG (lower = more stabilizing prediction)",
+    "finalist_label": "computationally supported candidate for experimental testing"
+  },
+  "step_5_md": {
+    "required_tools": ["OpenMM >= 7.7", "GROMACS >= 2021", "MDTraj >= 1.9"],
+    "status_on_this_system": "BLOCKED — pip install openmm timed out, no conda/mamba, GROMACS not installed",
+    "action_if_blocked": "Report BLOCKED. Do not substitute guesses. Include BLOCKED status in final report."
+  },
+  "step_6_prior_art": {
+    "required_databases": ["UniProt/BLAST", "PubMed", "bioRxiv", "Lens.org", "CAS SciFinder"],
+    "forbidden_claims": ["novel", "unprecedented", "0% patent overlap", "no prior art"],
+    "required_statement_format": "No identical sequence found in [databases] searched on [date]",
+    "automated_status": "MANUAL_REQUIRED — BLAST API not available offline"
+  },
+  "output_labeling": {
+    "predicted_values_must_say": "predicted",
+    "experimental_values_must_cite_doi": true,
+    "never_mix_predicted_and_experimental_in_same_column_without_label": true,
+    "finalist_label": "computationally supported candidate for experimental testing — wet-lab validation required"
+  },
+  "wetlab_validation_plan": {
+    "assays_required": [
+      "DSF or nanoDSF for Tm measurement (triplicates minimum)",
+      "PET film and PET powder activity at 40, 50, 60, 70°C",
+      "Comparison vs FAST-PETase, Hot-PETase, LCC-ICCG, and WT IsPETase controls",
+      "S160A catalytic knockout as negative control",
+      "Size-exclusion chromatography for aggregation check"
+    ],
+    "note": "No computational result replaces wet-lab Tm measurement."
+  }
+}

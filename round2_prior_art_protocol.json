@@ -1,0 +1,18 @@
+{
+  "step": "STEP_6_PRIOR_ART",
+  "status": "MANUAL_REQUIRED",
+  "search_date_placeholder": "2026-11-10",
+  "databases_to_query": [
+    "UniProt BLAST",
+    "PubMed",
+    "bioRxiv",
+    "Lens.org",
+    "CAS SciFinder"
+  ],
+  "instruction": "Run BLAST on each finalist full sequence. Report as: 'No identical sequence found in [db] searched on [date]'.",
+  "forbidden": [
+    "novel",
+    "unprecedented",
+    "0% patent overlap"
+  ]
+}

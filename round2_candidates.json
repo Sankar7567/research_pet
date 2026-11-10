@@ -1,0 +1,337 @@
+{
+  "timestamp_utc": "2026-11-10T06:45:37.678647Z",
+  "step": "STEP_4_COMBINATORIAL_DESIGN",
+  "predictor_gate": "PASS",
+  "predictor_spearman_abs_rho": 0.8929,
+  "budget_designs_evaluated": 6,
+  "n_single_mut_finalists": 5,
+  "n_combo_finalists": 6,
+  "top5_single_mutant_additions": [
+    {
+      "design_id": "R2-SM-01",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutation": {
+        "res_num_6eqe": 139,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "code": "G139R"
+      },
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+G139R",
+      "ddG_pred_sum_kcal_mol": -0.5311,
+      "label": "computationally supported candidate for experimental testing",
+      "caveats": [
+        "Predicted value only \u2014 not experimental",
+        "Additivity assumed \u2014 epistasis not modelled",
+        "MD validation BLOCKED (OpenMM not installed)",
+        "Wet-lab DSF/nanoDSF required to confirm Tm shift"
+      ]
+    },
+    {
+      "design_id": "R2-SM-02",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutation": {
+        "res_num_6eqe": 53,
+        "wt_aa": "R",
+        "mut_aa": "A",
+        "code": "R53A"
+      },
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+R53A",
+      "ddG_pred_sum_kcal_mol": -0.4626,
+      "label": "computationally supported candidate for experimental testing",
+      "caveats": [
+        "Predicted value only \u2014 not experimental",
+        "Additivity assumed \u2014 epistasis not modelled",
+        "MD validation BLOCKED (OpenMM not installed)",
+        "Wet-lab DSF/nanoDSF required to confirm Tm shift"
+      ]
+    },
+    {
+      "design_id": "R2-SM-03",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutation": {
+        "res_num_6eqe": 290,
+        "wt_aa": "S",
+        "mut_aa": "Y",
+        "code": "S290Y"
+      },
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+S290Y",
+      "ddG_pred_sum_kcal_mol": -0.4617,
+      "label": "computationally supported candidate for experimental testing",
+      "caveats": [
+        "Predicted value only \u2014 not experimental",
+        "Additivity assumed \u2014 epistasis not modelled",
+        "MD validation BLOCKED (OpenMM not installed)",
+        "Wet-lab DSF/nanoDSF required to confirm Tm shift"
+      ]
+    },
+    {
+      "design_id": "R2-SM-04",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutation": {
+        "res_num_6eqe": 90,
+        "wt_aa": "R",
+        "mut_aa": "Y",
+        "code": "R90Y"
+      },
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+R90Y",
+      "ddG_pred_sum_kcal_mol": -0.3029,
+      "label": "computationally supported candidate for experimental testing",
+      "caveats": [
+        "Predicted value only \u2014 not experimental",
+        "Additivity assumed \u2014 epistasis not modelled",
+        "MD validation BLOCKED (OpenMM not installed)",
+        "Wet-lab DSF/nanoDSF required to confirm Tm shift"
+      ]
+    },
+    {
+      "design_id": "R2-SM-05",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutation": {
+        "res_num_6eqe": 29,
+        "wt_aa": "T",
+        "mut_aa": "D",
+        "code": "T29D"
+      },
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+T29D",
+      "ddG_pred_sum_kcal_mol": -0.1704,
+      "label": "computationally supported candidate for experimental testing",
+      "caveats": [
+        "Predicted value only \u2014 not experimental",
+        "Additivity assumed \u2014 epistasis not modelled",
+        "MD validation BLOCKED (OpenMM not installed)",
+        "Wet-lab DSF/nanoDSF required to confirm Tm shift"
+      ]
+    }
+  ],
+  "greedy_combo_designs": [
+    {
+      "design_id": "R2-COMBO-01mut",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutations": [
+        {
+          "res_num_6eqe": 139,
+          "wt_aa": "G",
+          "mut_aa": "R",
+          "ddG_pred_kcal_mol": -0.5311
+        }
+      ],
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+G139R",
+      "n_new_mutations": 1,
+      "sum_individual_ddG_pred_kcal_mol": -0.5311,
+      "label": "computationally supported candidate for experimental testing",
+      "mandatory_warnings": [
+        "Sum of individual predicted ddG \u2014 additivity approximation. Epistasis NOT modelled.",
+        "All ddG values are PREDICTED by ThermoMPNN \u2014 not experimental.",
+        "MD simulation BLOCKED. No structural stress-testing performed.",
+        "Prior-art search is MANUAL \u2014 has not been completed."
+      ]
+    },
+    {
+      "design_id": "R2-COMBO-02mut",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutations": [
+        {
+          "res_num_6eqe": 139,
+          "wt_aa": "G",
+          "mut_aa": "R",
+          "ddG_pred_kcal_mol": -0.5311
+        },
+        {
+          "res_num_6eqe": 53,
+          "wt_aa": "R",
+          "mut_aa": "A",
+          "ddG_pred_kcal_mol": -0.4626
+        }
+      ],
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+G139R/R53A",
+      "n_new_mutations": 2,
+      "sum_individual_ddG_pred_kcal_mol": -0.9937,
+      "label": "computationally supported candidate for experimental testing",
+      "mandatory_warnings": [
+        "Sum of individual predicted ddG \u2014 additivity approximation. Epistasis NOT modelled.",
+        "All ddG values are PREDICTED by ThermoMPNN \u2014 not experimental.",
+        "MD simulation BLOCKED. No structural stress-testing performed.",
+        "Prior-art search is MANUAL \u2014 has not been completed."
+      ]
+    },
+    {
+      "design_id": "R2-COMBO-03mut",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutations": [
+        {
+          "res_num_6eqe": 139,
+          "wt_aa": "G",
+          "mut_aa": "R",
+          "ddG_pred_kcal_mol": -0.5311
+        },
+        {
+          "res_num_6eqe": 53,
+          "wt_aa": "R",
+          "mut_aa": "A",
+          "ddG_pred_kcal_mol": -0.4626
+        },
+        {
+          "res_num_6eqe": 290,
+          "wt_aa": "S",
+          "mut_aa": "Y",
+          "ddG_pred_kcal_mol": -0.4617
+        }
+      ],
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+G139R/R53A/S290Y",
+      "n_new_mutations": 3,
+      "sum_individual_ddG_pred_kcal_mol": -1.4554,
+      "label": "computationally supported candidate for experimental testing",
+      "mandatory_warnings": [
+        "Sum of individual predicted ddG \u2014 additivity approximation. Epistasis NOT modelled.",
+        "All ddG values are PREDICTED by ThermoMPNN \u2014 not experimental.",
+        "MD simulation BLOCKED. No structural stress-testing performed.",
+        "Prior-art search is MANUAL \u2014 has not been completed."
+      ]
+    },
+    {
+      "design_id": "R2-COMBO-04mut",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutations": [
+        {
+          "res_num_6eqe": 139,
+          "wt_aa": "G",
+          "mut_aa": "R",
+          "ddG_pred_kcal_mol": -0.5311
+        },
+        {
+          "res_num_6eqe": 53,
+          "wt_aa": "R",
+          "mut_aa": "A",
+          "ddG_pred_kcal_mol": -0.4626
+        },
+        {
+          "res_num_6eqe": 290,
+          "wt_aa": "S",
+          "mut_aa": "Y",
+          "ddG_pred_kcal_mol": -0.4617
+        },
+        {
+          "res_num_6eqe": 90,
+          "wt_aa": "R",
+          "mut_aa": "Y",
+          "ddG_pred_kcal_mol": -0.3029
+        }
+      ],
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+G139R/R53A/S290Y/R90Y",
+      "n_new_mutations": 4,
+      "sum_individual_ddG_pred_kcal_mol": -1.7583,
+      "label": "computationally supported candidate for experimental testing",
+      "mandatory_warnings": [
+        "Sum of individual predicted ddG \u2014 additivity approximation. Epistasis NOT modelled.",
+        "All ddG values are PREDICTED by ThermoMPNN \u2014 not experimental.",
+        "MD simulation BLOCKED. No structural stress-testing performed.",
+        "Prior-art search is MANUAL \u2014 has not been completed."
+      ]
+    },
+    {
+      "design_id": "R2-COMBO-05mut",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutations": [
+        {
+          "res_num_6eqe": 139,
+          "wt_aa": "G",
+          "mut_aa": "R",
+          "ddG_pred_kcal_mol": -0.5311
+        },
+        {
+          "res_num_6eqe": 53,
+          "wt_aa": "R",
+          "mut_aa": "A",
+          "ddG_pred_kcal_mol": -0.4626
+        },
+        {
+          "res_num_6eqe": 290,
+          "wt_aa": "S",
+          "mut_aa": "Y",
+          "ddG_pred_kcal_mol": -0.4617
+        },
+        {
+          "res_num_6eqe": 90,
+          "wt_aa": "R",
+          "mut_aa": "Y",
+          "ddG_pred_kcal_mol": -0.3029
+        },
+        {
+          "res_num_6eqe": 29,
+          "wt_aa": "T",
+          "mut_aa": "D",
+          "ddG_pred_kcal_mol": -0.1704
+        }
+      ],
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+G139R/R53A/S290Y/R90Y/T29D",
+      "n_new_mutations": 5,
+      "sum_individual_ddG_pred_kcal_mol": -1.9287,
+      "label": "computationally supported candidate for experimental testing",
+      "mandatory_warnings": [
+        "Sum of individual predicted ddG \u2014 additivity approximation. Epistasis NOT modelled.",
+        "All ddG values are PREDICTED by ThermoMPNN \u2014 not experimental.",
+        "MD simulation BLOCKED. No structural stress-testing performed.",
+        "Prior-art search is MANUAL \u2014 has not been completed."
+      ]
+    },
+    {
+      "design_id": "R2-COMBO-06mut",
+      "background": "FAST-PETase (S121E/D186H/R280A/N233K/R224Q on 6EQE)",
+      "new_mutations": [
+        {
+          "res_num_6eqe": 139,
+          "wt_aa": "G",
+          "mut_aa": "R",
+          "ddG_pred_kcal_mol": -0.5311
+        },
+        {
+          "res_num_6eqe": 53,
+          "wt_aa": "R",
+          "mut_aa": "A",
+          "ddG_pred_kcal_mol": -0.4626
+        },
+        {
+          "res_num_6eqe": 290,
+          "wt_aa": "S",
+          "mut_aa": "Y",
+          "ddG_pred_kcal_mol": -0.4617
+        },
+        {
+          "res_num_6eqe": 90,
+          "wt_aa": "R",
+          "mut_aa": "Y",
+          "ddG_pred_kcal_mol": -0.3029
+        },
+        {
+          "res_num_6eqe": 29,
+          "wt_aa": "T",
+          "mut_aa": "D",
+          "ddG_pred_kcal_mol": -0.1704
+        },
+        {
+          "res_num_6eqe": 188,
+          "wt_aa": "S",
+          "mut_aa": "T",
+          "ddG_pred_kcal_mol": -0.1673
+        }
+      ],
+      "full_mutation_string_6eqe": "S121E/D186H/R280A/N233K/R224Q+G139R/R53A/S290Y/R90Y/T29D/S188T",
+      "n_new_mutations": 6,
+      "sum_individual_ddG_pred_kcal_mol": -2.096,
+      "label": "computationally supported candidate for experimental testing",
+      "mandatory_warnings": [
+        "Sum of individual predicted ddG \u2014 additivity approximation. Epistasis NOT modelled.",
+        "All ddG values are PREDICTED by ThermoMPNN \u2014 not experimental.",
+        "MD simulation BLOCKED. No structural stress-testing performed.",
+        "Prior-art search is MANUAL \u2014 has not been completed."
+      ]
+    }
+  ],
+  "global_warnings": [
+    "These are computationally supported candidates for experimental testing \u2014 NOT validated variants.",
+    "Wet-lab validation required: DSF/nanoDSF Tm, PET film+powder activity 40\u201370\u00b0C.",
+    "Compare vs FAST-PETase, Hot-PETase, LCC-ICCG, WT IsPETase, and S160A negative control.",
+    "MD simulation BLOCKED \u2014 no conformational stress-testing done.",
+    "Prior-art search MANUAL \u2014 not yet performed."
+  ]
+}

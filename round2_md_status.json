@@ -1,0 +1,6 @@
+{
+  "step": "STEP_5_MD_SIMULATION",
+  "status": "BLOCKED",
+  "reason": "OpenMM and GROMACS not installed; pip install timed out; no conda/mamba on this system.",
+  "action": "Report BLOCKED. No simulation values substituted."
+}
