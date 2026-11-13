@@ -1,0 +1,36 @@
+claim_id,claim_text,claimed_value,verification_method,source_file,line_number,status
+CLAIM-001,"Target protein full-length sequence length is 290 amino acids",290 aa,"UniProt accession A0A0K8P6T7 verified directly against sequence FASTA",run_phase_c_validation.py,157,VERIFIED
+CLAIM-002,"PDB crystal structure 6EQE mature chain A length and resolution",265 aa / 1.58 A,"BioPython PDBParser inspection of 6EQE.pdb coordinates and header",6EQE.pdb,1,VERIFIED
+CLAIM-003,"Catalytic triad residues are Ser160, Asp206, His237","S160, D206, H237","Structural inspection of 6EQE active site and literature consensus",run_structural_validation.py,45,VERIFIED
+CLAIM-004,"Native disulfide bridges connect C203-C239 and C273-C289","C203-C239, C273-C289","Interatomic distance check between sulfur atoms in 6EQE",run_structural_validation.py,62,VERIFIED
+CLAIM-005,"Initial candidate PROD-PETase-G001-C04 mutational composition","8 mutations (N30P/G48C/T51P/Y63C/S103C/T113P/Q126C/N288P)","Parsed from candidate PDB model and fasta records",candidate_petase_mutant.fasta,1,VERIFIED
+CLAIM-006,"Round 1 reported melting temperature for candidate C04",88.70 C,"Heuristic summation formula in compute_thermodynamics.py",compute_thermodynamics.py,88,AUDITED_FABRICATION
+CLAIM-007,"Round 1 reported folding free energy change for candidate C04",-15.15 kcal/mol,"Linear scalar lookup table in compute_thermodynamics.py",compute_thermodynamics.py,85,AUDITED_FABRICATION
+CLAIM-008,"Round 1 reported catalytic triad RMSD",0.0000 A,"Verbatim coordinate copying in run_structural_validation.py",audit_metrics.json,6,AUDITED_BUG
+CLAIM-009,"True energy-minimized catalytic triad displacement upon relaxation",0.0082 A,"OpenMM energy minimization of candidate structure",audit_metrics.json,8,VERIFIED
+CLAIM-010,"Overall candidate backbone RMSD relative to 6EQE",0.0984 A,"MDTraj RMSD calculation over all backbone atoms",audit_metrics.json,5,VERIFIED
+CLAIM-011,"Wild-type Asn288 backbone dihedral angles (phi, psi)","phi = +58.4 deg, psi = +33.1 deg","BioPython dihedral angle calculation on 6EQE",audit_metrics.json,14,VERIFIED
+CLAIM-012,"Severe steric clash distance between Pro288(Cd) and Gly287(C)",1.08 A,"Interatomic Euclidean distance calculation in relaxed candidate",audit_metrics.json,22,VERIFIED
+CLAIM-013,"Unclosed proline pyrrolidine ring Cd-N distance in candidate C04",3.14 A,"Interatomic Euclidean distance calculation in candidate PDB",audit_metrics.json,19,VERIFIED
+CLAIM-014,"Cumulative ESM-2 LLR evolutionary score for candidate C04",-15.571,"ESM-2 8M zero-shot masked marginal evaluation",esm2_audit_results.json,8,VERIFIED
+CLAIM-015,"ESM-2 LLR penalty for S103C mutation alone",-7.813,"ESM-2 8M single site marginal probability ratio",esm2_audit_results.json,16,VERIFIED
+CLAIM-016,"Pre-registration ledger thresholds_v3.json SHA256 hash",32cb1429033bba8e2f9ed011eb89ee69fdd5f9faa4bd26c37d4a35a6260ff9ee,"sha256sum thresholds_v3.json",thresholds_v3.json,1,VERIFIED
+CLAIM-017,"Pre-registration git commit timestamp",2026-11-10T13:01:59Z,"git log -1 --format=%cI 1fb0754",git_log,1,VERIFIED
+CLAIM-018,"ThermoMPNN Spearman rho on benchmark seen positions (n=5)",-0.8000,"Scipy spearmanr calculation on 5 verified benchmark variants",phase_c_validation_results.json,54,VERIFIED
+CLAIM-019,"ThermoMPNN 95% bootstrap CI on benchmark set (B=10,000)","[-1.0000, -0.1111]","Percentile bootstrap with 10,000 resamples",phase_c_validation_results.json,55,VERIFIED
+CLAIM-020,"ThermoMPNN Spearman rho on primary held-out stability mutants (n=5)",-0.6000,"Scipy spearmanr calculation on 5 verified non-knockout variants",phase_c_validation_results.json,38,VERIFIED
+CLAIM-021,"ThermoMPNN 95% bootstrap CI on primary held-out stability mutants","[-1.0000, +1.0000]","Percentile bootstrap with 10,000 resamples",phase_c_validation_results.json,39,VERIFIED
+CLAIM-022,"ThermoMPNN Spearman rho on held-out set with controls (n=7)",-0.0714,"Scipy spearmanr calculation on 7 verified held-out variants",phase_c_validation_results.json,46,VERIFIED
+CLAIM-023,"ThermoMPNN 95% bootstrap CI on held-out with controls","[-0.7647, +1.0000]","Percentile bootstrap with 10,000 resamples",phase_c_validation_results.json,47,VERIFIED
+CLAIM-024,"ThermoMPNN Spearman rho on combined literature dataset (n=12)",-0.4685,"Scipy spearmanr calculation on all 12 verified literature variants",phase_c_validation_results.json,62,VERIFIED
+CLAIM-025,"ThermoMPNN 95% bootstrap CI on combined literature dataset","[-0.8750, +0.1643]","Percentile bootstrap with 10,000 resamples",phase_c_validation_results.json,63,VERIFIED
+CLAIM-026,"ESM-2 LLR Spearman rho on primary held-out stability mutants (n=5)",0.0000,"Scipy spearmanr calculation between ESM-2 LLR and exp dTm",phase_c_validation_results.json,42,VERIFIED
+CLAIM-027,"ESM-2 LLR Spearman rho on held-out set with controls (n=7)",-0.1071,"Scipy spearmanr calculation between ESM-2 LLR and exp dTm",phase_c_validation_results.json,50,VERIFIED
+CLAIM-028,"Analytic minimum detectable |rho| with 80% power at alpha=0.05 for n=7",0.886,"Fisher z-transformation power calculation: tanh(2.802 / sqrt(4))",run_phase_c_validation.py,210,VERIFIED
+CLAIM-029,"Analytic minimum detectable |rho| with 80% power at alpha=0.05 for n=5",0.963,"Fisher z-transformation power calculation: tanh(2.802 / sqrt(2))",run_phase_c_validation.py,210,VERIFIED
+CLAIM-030,"Analytic minimum detectable |rho| with 80% power at alpha=0.05 for n=12",0.732,"Fisher z-transformation power calculation: tanh(2.802 / sqrt(9))",run_phase_c_validation.py,210,VERIFIED
+CLAIM-031,"Analytic minimum detectable |rho| with 80% power at alpha=0.05 for n=30",0.492,"Fisher z-transformation power calculation: tanh(2.802 / sqrt(27))",run_phase_c_validation.py,210,VERIFIED
+CLAIM-032,"Pre-registered decision tree final outcome verdict",AUDIT-ONLY,"Triggered by retrospective validation gate failure in thresholds_v3.json",phase_c_validation_results.json,18,VERIFIED
+CLAIM-033,"Verified primary literature variants logged",16 rows,"Cross-referencing primary texts, tables, and CrossRef DOIs",data_verification_log.csv,1,VERIFIED
+CLAIM-034,"Verified Hot-PETase DOI",10.1038/s41929-022-00821-3,"CrossRef API verification and Nature Catalysis published paper",data_verification_log.csv,16,VERIFIED
+CLAIM-035,"Verified Son et al. 2019 DOI",10.1021/acscatal.9b00568,"CrossRef API verification and ACS Catalysis published paper",data_verification_log.csv,1,VERIFIED
